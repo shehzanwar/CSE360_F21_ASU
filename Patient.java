@@ -49,58 +49,58 @@ public class Patient {
 		this.password = password;
 	}
 	
-	public void addPharmacy(String pName, String pPhone)
+	public void addPharmacy(String pName, String pPhone)			//add both Pharmacy and Phone # to Patient
 	{
 		this.prefPharmacy = pName;
 		this.pharmacyPhone = pPhone;
 	}
 	
-	public void addInsurance(String iName, String iPhone, String id)
+	public void addInsurance(String iName, String iPhone, String id)	//add the Patient's insurance by asking for the name, phone #, and identification
 	{
 		this.insuranceProvider = iName;
 		this.insurancePhone = iPhone;
 		this.insuranceID = id;
 	}
 	
-	public String getFirstName()
+	public String getFirstName()						//obtain the Patient's first name
 	{
 		return firstName;
 	}
-	public String getLastName()
+	public String getLastName()						//obtain the Patient's last name
 	{
 		return lastName;
 	}
-	public LocalDate getBirthLocalDate()
-	{
+	public LocalDate getBirthLocalDate()					//obtain the Patient's birthday
+	{	
 		return birthLocalDate;
 	}
 	
-	public String getUserName()
+	public String getUserName()						//obtain the Patient's username
 	{
 		return userName;
 	}
-	public void addMedication(Medication m1)
+	public void addMedication(Medication m1)				//add Patient's medication(s)
 	{
 		meds.add(m1);
 	}
-	public ArrayList<Medication> getMedications()
+	public ArrayList<Medication> getMedications()				//add Patient's medication(s) to new or preexisting list
 	{
 		return meds;
 	}
-	public void addImmunization(Immunization i1)
+	public void addImmunization(Immunization i1)				//add Patient's immunization(s)
 	{
 		immunizations.add(i1);
-	}
-	public ArrayList<Immunization> getImmunizations()
+	}	
+	public ArrayList<Immunization> getImmunizations()			//add Patient's immunization(s) to new or preexisting list
 	{
 		return immunizations;
 	}
 	
-	public void addAllergy(String allergy)
+	public void addAllergy(String allergy)					//add Patient's allergy(s)
 	{
 		allergies.add(allergy);
 	}
-	public ArrayList<String> getAllergies()
+	public ArrayList<String> getAllergies()					//add Patient's allergy(s) to new or preexisting list
 	{
 		return allergies;
 	}
