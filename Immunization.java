@@ -2,7 +2,7 @@ package PatientLayers;
 
 import java.util.Date;
 
-public class Immunization {						//Immunization class is going to be public
+public class Immunization {						//Immunization class is set as Public
 	private String name;
 	private String dosage;
 	private Date day;
