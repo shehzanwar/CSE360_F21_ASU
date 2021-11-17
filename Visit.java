@@ -14,12 +14,12 @@ public class Visit {
 	
 	public Visit(double height, double weight, int BP, int BP2, double temp, Date visitDate)
 	{
-		this.height = height;
-		this.weight = weight;
+		this.height = height;		//obtain Patient's height(inches)
+		this.weight = weight;		//obtain Patient's visit weight(lbs)
 		this.BP = BP;
 		this.BP2 = BP2;
-		this.temp = temp;
-		this.visitDate = visitDate;
+		this.temp = temp;		//obtain Patient's temp
+		this.visitDate = visitDate;	//obtain Patient's visit date
 		
 	}
 	
