@@ -13,8 +13,8 @@ public class Immunization {						//Immunization class is set as Public
 		this.day = day;
 		
 	}
-	public String toString()					//string to print out return statement
+	public String toString()					
 	{
-		return name + " " + dosage + " " + day.toString();	
+		return name + " " + dosage + " " + day.toString();	//string to print out our return statement
 	}
 }
